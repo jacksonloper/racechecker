@@ -27,7 +27,7 @@ npm run build
 
 ## Netlify deployment
 
-This repository includes `/home/runner/work/racechecker/racechecker/netlify.toml` with:
+This repository includes `netlify.toml` with:
 
 - `npm run build` as the build command
 - `dist` as the publish directory
@@ -35,6 +35,6 @@ This repository includes `/home/runner/work/racechecker/racechecker/netlify.toml
 
 ## Adding future case studies
 
-1. Add a new case study data file under `/home/runner/work/racechecker/racechecker/src/data` that follows the shared types in `/home/runner/work/racechecker/racechecker/src/types.ts`.
-2. Reuse the visualization shell in `/home/runner/work/racechecker/racechecker/src/components/CaseStudyExplorer.tsx`.
-3. Add the new case study to the app entry point in `/home/runner/work/racechecker/racechecker/src/App.tsx`.
+1. Add a new case study data file under `src/data` that follows the shared types in `src/types.ts`.
+2. Reuse the visualization shell in `src/components/CaseStudyExplorer.tsx`.
+3. Add the new case study to the app entry point in `src/App.tsx`.
